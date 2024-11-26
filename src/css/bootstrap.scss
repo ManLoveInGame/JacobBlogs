@@ -1,0 +1,13 @@
+$primary : #149DFF;
+$secondary : #FFA014;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root{
+    --primary-light :#D4F0FF;
+    --primary-dark : #007BFF; 
+    --secondary-light : #FFEDC6;
+    --secondary-dark : #F98107;
+    --bs-body-font-family: LINESeedJPStd,sans-serif;
+}
