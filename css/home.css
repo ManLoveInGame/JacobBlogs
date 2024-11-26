@@ -133,10 +133,8 @@
     width: 100vw;
     height: 100vh;
     /* background-color: var(--bs-gray-900); */
-    padding: 20px;
-    padding-left: 10px;
-    padding-right: 25px;
-    /* padding-top: 40px; */
+
+    padding: 35px clamp(0.9375rem, 0.4018rem + 2.6786vw, 2.8125rem);
 
 }
 
@@ -166,7 +164,7 @@
 
 .hero-content {
     position: absolute;
-    left: 10px;
+    left: clamp(0.875rem, 0.3393rem + 2.6786vw, 2.75rem);
     bottom: -4vh;
     height: 30vh;
     background-color: #fff;
@@ -396,8 +394,9 @@
 
 /* 7-1 Reason Box */
 .TheFlexBox {
+    margin: auto;
     margin-top: 42px;
-    padding: 0;
+    padding: 12px;
     gap: 12px;
     /* border: 1px solid black; */
 
